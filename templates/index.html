@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pneumonia Detection</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pneumonia Detection System</h1>
+        <p>Upload your chest X-ray image to check for pneumonia.</p>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Upload X-Ray:</label>
+            <input type="file" name="file" id="file" accept=".png, .jpg, .jpeg" required>
+            <button type="submit" class="primary-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

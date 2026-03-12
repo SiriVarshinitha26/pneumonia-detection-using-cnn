@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E8F5E9; /* Soft green */
+    color: #424242; /* Dark grey */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 90%; /* Adjusted for smaller screens */
+    margin: 20px auto; /* Reduced margin */
+    background-color: #F5F5F5; /* Light grey */
+    padding: 15px; /* Reduced padding */
+    border-radius: 8px; /* Slightly smaller radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 20px; /* Reduced font size */
+    color: #1565C0; /* Deep blue */
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 14px; /* Reduced font size */
+    color: #424242; /* Dark grey */
+    margin-bottom: 15px;
+}
+
+/* Form Elements */
+form {
+    margin-top: 15px;
+}
+label {
+    font-size: 14px; /* Reduced font size */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="file"] {
+    display: block;
+    margin: 8px auto;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px; /* Set maximum width */
+}
+
+/* Buttons */
+button {
+    padding: 8px 16px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.primary-btn {
+    background-color: #26A69A; /* Teal */
+    color: white;
+    transition: background-color 0.3s;
+}
+.primary-btn:hover {
+    background-color: #1E8884; /* Darker teal */
+}
+.secondary-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #1565C0; /* Deep blue */
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px; /* Reduced padding */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.secondary-btn:hover {
+    background-color: #0D47A1; /* Darker blue */
+}
+
+/* Images */
+.xray-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px; /* Reduced margin */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 18px; /* Smaller font size for small screens */
+    }
+    p, label {
+        font-size: 12px; /* Adjusted for readability on small screens */
+    }
+    button {
+        font-size: 12px; /* Reduced button text size */
+    }
+    .container {
+        padding: 10px; /* Reduced padding for small screens */
+    }
+}

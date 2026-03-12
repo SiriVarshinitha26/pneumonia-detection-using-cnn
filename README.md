@@ -1,1 +1,2 @@
-# pneumonia-detection-using-cnn
+# pneumonia-detection-cnn
+
